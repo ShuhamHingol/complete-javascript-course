@@ -212,30 +212,56 @@ retirementUS(1999);
  retirementIceland(1999);
 
 */
+
+//little challenge
 /*
- function interviewQuestion(job){
-    if(job==='Designer'){
-        return function(name){
-            console.log(name+', can you please explain what UX design is?');
+
+function interiviewQuestion(job){
+    return function (name){
+        if(job==='designer'){
+        console.log(name+', can you please explain what UX design is?');
         }
-    }else if(job==='teacher'){
-        return function(name){
+        else if(job==='teacher'){
             console.log('What subject do you teach,'+ name +'?');
         }
-    }else {
-        return function(name){
+        else{
             console.log('Hello '+ name+', what do you do?');
         }
     }
 }
 
+interiviewQuestion('teacher')('john');
+interiviewQuestion('designer')('Mark');
+
 */
 
-function interiviewQuestion(job){
-    return function (name){
-        console.log(name+', can you please explain what UX design is?');
-    }
-}
+//////////////////////////////
+// Bind, call & apply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
