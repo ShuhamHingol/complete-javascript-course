@@ -238,7 +238,19 @@ interiviewQuestion('designer')('Mark');
 //////////////////////////////
 // Bind, call & apply
 
-
+var john ={
+    name:'John',
+    age:21,
+    job:'teacher'
+    presentation : function(style,timeOfDay){
+       if(style==='formal'){
+           console.log('Good '+ timeOfDay+', Ladies and gentlemen! I\'m'  );
+       } 
+       else if(style==='friendly'){
+           console.log();
+       }
+    }
+}
 
 
 
