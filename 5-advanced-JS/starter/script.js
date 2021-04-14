@@ -392,6 +392,7 @@ c) correct answer (I would use a number for this)
 11. Display the score in the console. Use yet another method for this.
 */
 
+/*
 (function(){
     function Question(question,answers,correct){
         this.question=question;
@@ -467,12 +468,12 @@ c) correct answer (I would use a number for this)
         questions[n].checkAnswer(parseInt(answer),keepScore);
 
         nextQuestion();
-    }    
+        }    
     }
     nextQuestion();
 })();
 
-
+*/
 
 
 
